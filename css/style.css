@@ -106,6 +106,7 @@ max-width: 150px;
     html{
         font-size: 16px;
     }
+/* header section */
     .mobile-logo{
         display: none;
 
@@ -121,4 +122,18 @@ max-width: 150px;
     h1{
         color: aliceblue;
     }
+
+    /* app section */
+    .app img{
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+
+    }
+    .app .btnLink{
+        float: right;
+    }
 }
+
+
+

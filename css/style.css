@@ -42,3 +42,27 @@ h4{
 h5{
     font-size: 1em;
 }
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+}
+
+
+/* Header styles */
+
+.mobile-logo{
+
+max-width: 150px;
+}
+.desktop-logo{
+    display: none;
+}
+
+.banner{
+    height: 600px;
+    background: grey url(../images/smog-mobile.jpg) no-repeat center bottom; 
+    /* background-colour, image, repeat, position */
+    background-size: cover;
+}

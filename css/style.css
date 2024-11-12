@@ -88,3 +88,37 @@ max-width: 150px;
     background-color: #06313c;
     color: aliceblue;
 }
+/* footer styles */
+
+.site-footer{
+    border-top: 2px solid #00add8;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+}
+
+.copy{
+    text-align: right;
+}
+
+/* Desktop Styles */
+
+@media screen and (min-width: 600px){
+    html{
+        font-size: 16px;
+    }
+    .mobile-logo{
+        display: none;
+
+    }
+    .desktop-logo{
+        display: inline-block;
+        max-width: 300px;
+    }
+    .banner{
+        background-image: url(../images/smog-desktop.jpg);
+    }
+
+    h1{
+        color: aliceblue;
+    }
+}
